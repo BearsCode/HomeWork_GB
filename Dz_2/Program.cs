@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-﻿// Задача 10
-=======
+
 // Задача 10
->>>>>>> ddf3a89a725ff162984913f90dbda3bb16bf1cec
 // Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа
 
 int ReturnSecondDigit(int number)
@@ -16,7 +13,7 @@ Console.Write("Enter three-digit number: ");
 int input = Convert.ToInt32(Console.ReadLine());
 int result = ReturnSecondDigit(input);
 Console.WriteLine($"Second digit of {input} is {result}");
-*/
+
 
 // Задача 13
 // Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет
@@ -64,9 +61,6 @@ int dayNumber = Convert.ToInt32(Console.ReadLine());
 bool isWeekend = IsWeekend(dayNumber);
 
 Console.WriteLine(isWeekend ? $"Day {dayNumber} is weekend" : $"Day {dayNumber} is not weekend");
-<<<<<<< HEAD
-=======
+
                                                                       
-                                                                                           
-                                                                                           
->>>>>>> ddf3a89a725ff162984913f90dbda3bb16bf1cec
+                                                                                          
