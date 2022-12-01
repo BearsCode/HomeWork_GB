@@ -116,5 +116,4 @@ void PrintArray(double[] numbers)
     Console.Write("]");
     Console.WriteLine();
 }
-
  
